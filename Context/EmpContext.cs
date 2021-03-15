@@ -9,6 +9,6 @@ namespace ExCodeFxGIT.Context
 {
     public class EmpContext : DbContext
     {
-        public DbSet<Emp> Emp { get; set; }
+        public DbSet<Emp> Emps { get; set; }
     }
 }

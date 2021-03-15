@@ -5,7 +5,7 @@ using System.Web;
 
 namespace ExCodeFxGIT.Models
 {
-    public class Emp
+    public class Emp : EmpBase
     {
         public int EId { get; set; }
         public string EName { get; set; }
